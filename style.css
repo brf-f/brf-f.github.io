@@ -1,0 +1,34 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .gradient-text {
+    height: 100vh; /* Set the height to cover the entire viewport */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background: linear-gradient(#f8f8f8, #000000);
+    overflow: hidden; /* Hide overflow to prevent scrollbar */
+  }
+  
+  p {
+    font-size: 24px;
+    font-weight: bold;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: gradientAnimation 5s infinite alternate; /* Adjust animation duration as needed */
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 0% 100%;
+    }
+  }
+  
