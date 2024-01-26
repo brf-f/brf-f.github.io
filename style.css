@@ -1,3 +1,106 @@
+nav{
+  box-shadow: 0px 0px 3px rgb(0, 0, 0);
+  display: flex;
+  padding: 2%, 6%;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3713d6;
+  font-family: 'Young Serif', serif;
+  font-size: 120%;
+}
+
+nav img{
+  width: 100px;
+  height: 100px;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 30%;
+  position: relative;
+  transition: 0.2s;
+}
+
+.nav-links{
+  flex: 1;
+  text-align: right;
+  padding-right: 5%;
+}
+
+.nav-links ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  padding-left: 4%;
+}
+
+.nav-links ul li a{
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.nav-links ul li::after{
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #403920;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li a:hover{
+  color: #403920;
+}
+
+.nav-links ul li:hover::after{
+  width: 100%;
+}
+
+.wordLogo{
+  text-shadow:
+  1px 1px 0 #4c3813e4,
+  -1px 1px 0  #4c3813e4,
+  -1px -1px 0 #4c3813e4,
+  1px -1px 0 #4c3813e4;
+
+  font-family: 'Young Serif', serif;
+  font-size: 220%;
+  color: #2020e2;
+  padding-left: 2%;
+  padding-right: 4%;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  position: relative;
+  text-decoration: none;
+  transition: 0.3s;
+  position: absolute;
+  top: 10px;
+  left: 110px;
+}
+
+.homeLink{
+  padding-left: 15px;
+  text-decoration: none;
+}
+
+.homeLink:hover span{
+  text-shadow:
+  2px 2px 0 #4c3813e4,
+  -2px 2px 0  #4c3813e4,
+  -2px -2px 0 #4c3813e4,
+  2px -2px 0 #4c3813e4;
+  color: #7bc6ff;
+}
+
+.homeLink:hover img{
+  transform-origin: 50px 50px;
+  transform: rotate(90deg);
+}
+
+
+
+
 body {
     margin: 0;
     padding: 0;
@@ -9,15 +112,15 @@ body {
     font-family: 'Rubik', sans-serif;
   }
 
-  h1 {
+h1 {
     font-size: 200%;
     margin-left: -2%;
   }
 
-  body{
+body{
     margin-left: 5%;
   }
 
-  section{
+section{
     margin-bottom: 10%;
   }
