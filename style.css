@@ -66,14 +66,14 @@ nav img{
 
   font-family: 'Young Serif', serif;
   font-size: 220%;
-  color: #2020e2;
+  color: #5ba8dc;
   padding-left: 2%;
   padding-right: 4%;
   padding-top: 20px;
   padding-bottom: 15px;
   position: relative;
   text-decoration: none;
-  transition: 0.3s;
+  transition: 0.5s;
   position: absolute;
   top: 10px;
   left: 110px;
@@ -90,7 +90,7 @@ nav img{
   -2px 2px 0  #4c3813e4,
   -2px -2px 0 #4c3813e4,
   2px -2px 0 #4c3813e4;
-  color: #7bc6ff;
+  color: #cfecff;
 }
 
 .homeLink:hover img{
@@ -102,8 +102,6 @@ nav img{
 
 
 body {
-    margin: 0;
-    padding: 0;
     height: 100%;
 
     background: linear-gradient(#09a6c66a, #2600ffdc);
@@ -112,15 +110,47 @@ body {
     font-family: 'Rubik', sans-serif;
   }
 
+li{
+  list-style-type: none;
+  padding-bottom: 1%;
+}
+
 h1 {
-    font-size: 200%;
-    margin-left: -2%;
+    font-size: 400%;
+    text-decoration: underline;
   }
 
-body{
-    margin-left: 5%;
-  }
+h3{
+  font-size: 250%;
+  text-decoration: overline;
+}
+
+h4{
+  font-size: 150%;
+}
 
 section{
-    margin-bottom: 10%;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    text-align: center;
   }
+
+.aboutMe{
+  background-color: #ffffff50;
+}
+
+.skills{
+  background-color: #00000050;
+}
+
+.projects{
+  background-color: #9797ff50;
+}
+
+.pastWork{
+  background-color: #2020e250;
+}
+
+.CV{
+  background-color: #3300c050;
+}
