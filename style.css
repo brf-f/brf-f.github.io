@@ -108,6 +108,7 @@ body {
     color: black;
     text-shadow: 1px 1px 2px rgb(190, 209, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0);
     font-family: 'Rubik', sans-serif;
+    font-size: 150%;
   }
 
 li{
@@ -117,12 +118,12 @@ li{
 
 h1 {
     font-size: 400%;
-    text-decoration: underline;
+    text-decoration: overline;
   }
 
 h3{
   font-size: 250%;
-  text-decoration: overline;
+  text-decoration: underline;
 }
 
 h4{
@@ -153,4 +154,49 @@ section{
 
 .CV{
   background-color: #3300c050;
+}
+
+
+.terminal {
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  position: relative;
+  text-align: left;
+  width: 40%;
+}
+
+.prompt {
+  color: #f92672;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.command-input {
+  color: #a6e22e;
+}
+
+.command-output {
+  color: #f8f8f2;
+  font-style: italic;
+}
+
+.cursor {
+  display: inline-block;
+  width: 8px;
+  height: 15px;
+  background-color: #f8f8f2;
+  animation: blink 1s infinite;
+  margin-left: 5px;
+}
+
+@keyframes blink {
+  0%, 50%, 100% {
+      opacity: 0;
+  }
+  25%, 75% {
+      opacity: 1;
+  }
 }
