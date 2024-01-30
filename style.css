@@ -149,7 +149,7 @@ section{
 }
 
 .pastWork{
-  background-color: #2020e250;
+  background-color: #6d6dfd50;
 }
 
 .CV{
@@ -157,7 +157,8 @@ section{
 }
 
 
-.terminal {
+
+.lang_terminal {
   margin-left: 30%;
   background-color: #272822;
   color: #f8f8f2;
@@ -167,6 +168,45 @@ section{
   position: relative;
   text-align: left;
   width: 40%;
+}
+
+.tool_terminal {
+  margin-left: 15%;
+  background-color: #272822;
+  color: #f8f8f2;
+  padding: 20px;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+  position: relative;
+  text-align: left;
+  display: flex;
+  padding-bottom: 2%;
+  width: 70%;
+}
+
+.tool_terminal::before {
+  content: "[0] 0:zsh*";
+  font-size: 65%;
+  text-shadow: none;
+  font-family: 'Consolas', monospace;
+  color: black;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #34dbb7;
+  margin-bottom: 2%;
+}
+
+.pane {
+  flex: 1;
+  padding: 10px;
+  overflow-y: auto;
+  border: 1px solid #555;
+  color: #f8f8f2;
+  padding-bottom: 1%;
 }
 
 .prompt {
