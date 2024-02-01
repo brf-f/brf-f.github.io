@@ -124,10 +124,36 @@ h1 {
 h3{
   font-size: 250%;
   text-decoration: underline;
+  margin-top: 10%;
 }
 
 h4{
   font-size: 150%;
+  margin-bottom: 10%;
+  text-decoration: wavy underline #6dc8ec;
+  color: #9bd0e59d;
+}
+
+h5{
+  font-size: 130%;
+}
+
+.experience{
+  font-size: 180%;
+  text-decoration: double underline #ec9c6d;
+  color: #e5c69b;
+ 
+}
+
+.project{
+  font-size: 160%;
+  margin-top: 10%;
+  text-decoration: double underline #83eaff;
+  color: #7cf2ff;
+}
+
+.projects h5, li{
+  padding-top: 4%;
 }
 
 section{

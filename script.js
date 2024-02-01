@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
         const percentScrolled = scrollPosition / windowHeight;
 
         // Adjust these values for the range where text color remains constant
-        const constantStart = 0.4;
-        const constantEnd = 1.2;
+        const constantStart = 1.2;
+        const constantEnd = 1.6;
 
         let textColor;
         if (percentScrolled < constantStart) {
