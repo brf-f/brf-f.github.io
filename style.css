@@ -143,6 +143,11 @@ h5{
   font-size: 130%;
 }
 
+.pastWork h4{
+  margin-bottom: 4%;
+  font-size: 120%;
+}
+
 .experience{
   font-size: 180%;
   text-decoration: double underline #ec9c6d;
