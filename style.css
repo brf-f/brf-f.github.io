@@ -104,7 +104,7 @@ nav img{
 body {
     height: 100%;
 
-    background: linear-gradient(#09a6c66a, #2600ffdc);
+    background: linear-gradient(#49d0eb6a, #2600ffdc);
     color: black;
     text-shadow: 1px 1px 2px rgb(190, 209, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0);
     font-family: 'Rubik', sans-serif;
@@ -172,8 +172,9 @@ section{
     text-align: center;
   }
 
-.aboutMe{
-  background-color: #ffffff50;
+.interests{
+  background-color: #b0723850;
+  color: rgb(219, 199, 86);
 }
 
 .skills{

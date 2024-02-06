@@ -7,14 +7,15 @@ document.addEventListener("DOMContentLoaded", function() {
         const percentScrolled = scrollPosition / windowHeight;
 
         // Adjust these values for the range where text color remains constant
-        const constantStart = 1.2;
-        const constantEnd = 1.6;
+        const constantStart = 1.9;
+        const constantEnd = 2.9;
+
+        const color1 = [219, 199, 86];       // RGB values for color1
 
         let textColor;
         if (percentScrolled < constantStart) {
             // Interpolate between black and color1
             const startColor = [0, 0, 0];      // RGB values for black
-            const color1 = [0, 34, 255];       // RGB values for color1
 
             const normalizedPosition = percentScrolled / constantStart;
 
@@ -28,7 +29,6 @@ document.addEventListener("DOMContentLoaded", function() {
             textColor = "#CFE9FF";
         } else {
             // Interpolate between color1 and color2
-            const color1 = [0, 34, 255];       // RGB values for color1
             const endColor = [207, 233, 255];  // RGB values for #CFE9FF
 
             const normalizedPosition = (percentScrolled - constantStart) / (constantEnd - constantStart);
