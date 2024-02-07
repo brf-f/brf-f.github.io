@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
 
         // Adjust these values for the range where text color remains constant
         const constantStart = 1.9;
-        const constantEnd = 2.9;
+        const constantEnd = 3.1;
 
-        const color1 = [219, 199, 86];       // RGB values for color1
+        const color1 = [97, 86, 219];       // RGB values for color1
 
         let textColor;
         if (percentScrolled < constantStart) {

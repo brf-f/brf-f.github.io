@@ -174,7 +174,6 @@ section{
 
 .interests{
   background-color: #b0723850;
-  color: rgb(219, 199, 86);
 }
 
 .skills{
@@ -194,6 +193,10 @@ section{
 }
 
 
+.interestImg{
+  width: 20%;
+  height: 20%;
+}
 
 .lang_terminal {
   margin-left: 30%;
