@@ -124,6 +124,7 @@ li{
 h1 {
     font-size: 400%;
     text-decoration: overline;
+    color: orange;
   }
 
 h3{
@@ -309,4 +310,9 @@ section{
   25%, 75% {
       opacity: 1;
   }
+}
+
+.Large_Bold{
+  text-decoration: none;
+  font-size: 330%;
 }
