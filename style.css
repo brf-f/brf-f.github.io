@@ -4,7 +4,7 @@ nav{
   padding: 2%, 6%;
   justify-content: space-between;
   align-items: center;
-  background-color: #3713d6;
+  background-color: #98969f;
   font-family: 'Young Serif', serif;
   font-size: 120%;
 }
@@ -66,7 +66,7 @@ nav img{
 
   font-family: 'Young Serif', serif;
   font-size: 220%;
-  color: #5ba8dc;
+  color: #dca65b;
   padding-left: 2%;
   padding-right: 4%;
   padding-top: 20px;
@@ -103,8 +103,7 @@ nav img{
 
 body {
     height: 100%;
-
-    background: linear-gradient(#49d0eb6a, #2600ffdc);
+    background: linear-gradient(#121212dc, #4361676a);
     color: black;
     text-shadow: 1px 1px 2px rgb(190, 209, 255), 0 0 1em rgb(255, 255, 255), 0 0 0.2em rgb(0, 0, 0);
     font-family: 'Rubik', sans-serif;
@@ -179,7 +178,7 @@ section{
   }
 
 .interests{
-  background-color: #b0723850;
+  background-color: #ffffff50;
 }
 
 .skills{
@@ -191,11 +190,11 @@ section{
 }
 
 .pastWork{
-  background-color: #6d6dfd50;
+  background-color: #a0a0fc50;
 }
 
 .CV{
-  background-color: #3300c050;
+  background-color: #5d65af50;
 }
 
 
